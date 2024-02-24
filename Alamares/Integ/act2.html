@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Honk&display=swap" rel="stylesheet">
+    <title>Activity 2 &#128578;</title>
+    <style>
+        table {
+        border-collapse: collapse;
+        width: 100%;
+        }
+        th, td {
+        border: 1px solid black;
+        padding: 8px;
+        text-align: left;
+        }
+        th {
+        background-color: #f2f2f2;
+        }
+        h1{
+            font-family: 'Honk', system-ui;
+        }
+        </style>
+</head>
+<body>
+    
+    <h1>Students Hobbies</h1>
+    <table>
+        <tr>
+        <th>First Name</th>
+        <th>Middle Initial</th>
+        <th>Last Name</th>
+        <th>Hobbies</th>
+        </tr>
+        </tr>
+        <tr>
+        <td>Charles</td>
+        <td>M.</td>
+        <td>Alamares</td>
+        <td id="hobbies"></td>
+        
+        
+        </tr>
+    </table>
+
+    <script>
+        const hobbies = ["Watching Movies", "Playing Guitar","Reading Manga"];
+        document.getElementById("hobbies").innerHTML = hobbies;
+    </script>
+</body>
+</html>
